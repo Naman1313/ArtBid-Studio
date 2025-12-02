@@ -58,7 +58,6 @@ The system updates bids in real-time using **AJAX + XML polling**, and includes 
 ## 📁 Folder Structure
 
 artbid-studio/
-│
 ├── public/
 │   ├── index.php
 │   ├── login.php
@@ -68,17 +67,17 @@ artbid-studio/
 │   ├── place_bid.php
 │   ├── get_current_bid.php
 │   └── assets/
-│       ├── css/style.css
-│       ├── js/app.js
-│       └── images/uploads/
-│
+│       ├── css/
+│       │   └── style.css
+│       ├── js/
+│       │   └── app.js
+│       └── images/
+│           └── uploads/
 ├── includes/
 │   ├── db.php
 │   └── auth.php
-│
 ├── sql/
-│   ├── artgallery.sql
-│
+│   └── artgallery.sql
 └── README.md
 
 ---
